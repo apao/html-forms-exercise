@@ -34,7 +34,7 @@
         
         <p>Place your orders here! You know you want to...</p>
 
-        <form>
+        <form action="https://ubermelon-order-form.herokuapp.com/process" method="POST">
             <label>
                 First Name:
                 <input type="text" name="firstname">
@@ -55,7 +55,11 @@
                     <option value="canary"> Canary </option>
                 </select>
             </label>
-
+            <br>
+            <label>
+                Submit Your Form!
+                <input type="submit">
+            </label>    
         </form>
     </body>
 </html>
